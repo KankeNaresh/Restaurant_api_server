@@ -4,7 +4,7 @@ let mongo=require('mongodb');
 let dotenv=require('dotenv');
 dotenv.config()
 let bodyParser=require('body-parser');
-let cors=require("cors");
+let cors=require('cors');
 let port=process.env.PORT || 3000;
 let {dbConnect,getData,getDataSort, postData,updateData,deleteData} = require('./controller/dbController');
 
